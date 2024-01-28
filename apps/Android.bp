@@ -1,0 +1,17 @@
+//
+// Copyright (C) 2026 Yaoyoro Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app_import {
+    name: "Gramophone",
+    apk: "gramophone/Gramophone.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
