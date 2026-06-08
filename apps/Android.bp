@@ -15,3 +15,15 @@ android_app_import {
         "androidx.window.sidecar",
     ],
 }
+
+android_app_import {
+    name: "Viola",
+    apk: "viola/Viola.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
