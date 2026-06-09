@@ -9,6 +9,7 @@ android_app_import {
     apk: "gramophone/Gramophone.apk",
     presigned: true,
     product_specific: true,
+    overrides: ["Music"],
     optional_uses_libs: [
         "androidx.window.extensions",
         "androidx.window.sidecar",
@@ -20,6 +21,10 @@ android_app_import {
     apk: "viola/Viola.apk",
     presigned: true,
     product_specific: true,
+    overrides: [
+        "Browser2",
+        "CarHTMLViewer",
+    ],
     optional_uses_libs: [
         "androidx.window.extensions",
         "androidx.window.sidecar",
